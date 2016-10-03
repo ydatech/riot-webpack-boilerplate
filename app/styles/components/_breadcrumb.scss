@@ -1,0 +1,21 @@
+.breadcrumb {
+    font-size: 13px;
+    font-family: $base-font-family;
+    background: transparent;
+    margin-bottom: 4px;
+    color: lighten($gray, 10%);
+    padding: 8px 0;
+    a {
+        color: $orange;
+        &:hover,
+        &:focus {
+            color: lighten($orange, 5%);
+        }
+        &:last-child {
+            color: $dark-blue;
+        }
+    }
+    span {
+        color: $dark-blue;
+    }
+}

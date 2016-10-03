@@ -1,0 +1,14 @@
+@import '../../../node_modules/open-sans-fontface/open-sans.scss';
+
+
+// This path is relative to this file!
+$fonts-url-path: '../fonts';
+
+@font-face {
+  font-family: "FjallaOne-Regular";
+  font-style: normal;
+  font-weight: normal;
+  src:  url("#{$fonts-url-path}/FjallaOne-Regular.eot?#iefix") format("embedded-opentype"), 
+  		url("#{$fonts-url-path}/FjallaOne-Regular.woff") format("woff"), url("../../fonts/FjallaOne-Regular.ttf") format("truetype"), 
+  		url("#{$fonts-url-path}/FjallaOne-Regular.svg#FjallaOne-Regular") format("svg");
+}

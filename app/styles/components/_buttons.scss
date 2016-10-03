@@ -1,0 +1,18 @@
+.borderless-btn {
+	color: $orange;
+	padding: 7px 13px;
+	border: solid 1px $orange;
+	border-radius: 0;
+	background: transparent;
+	&:hover,
+	&:focus {
+		color: $white;
+		background: $orange;
+		border-color: darken($orange, 10%);
+	}
+}
+
+.btn-search {
+	@extend .borderless-btn;
+	padding: 7px 13px 6px;
+}

@@ -1,0 +1,151 @@
+.cb-sidebar {
+    .add-cb,
+    .search-cb {
+        margin-top: 26px;
+        margin-bottom: 15px;
+    }
+    .contentbox-list {
+        height: 500px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        position: relative;
+        ul {
+            li {
+                a {
+                    color: $gray;
+                    background: $main-bg;
+                    &.active,
+                    &:hover,
+                    &:focus {
+                        color: $orange;
+                        background: $white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contentbox-detail {
+    .check-setting {
+        padding: 10px;
+        border-top: solid 1px $border-color1;
+        .check-me {
+            margin-top: 8px;
+            display: block;
+            .fa {
+                font-size: 16px;
+                padding-right: 4px;
+            }
+        }
+        .dropdown {
+            .dropdown-menu {
+                top: 31px;
+                height: auto;
+                width: 180px;
+            }
+        }
+    }
+    .cb-list {
+        .media-list {
+            .media {
+                h4 {
+                    font-family: $base-font-family;
+                    font-weight: $bold;
+                    line-height: 32px;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    margin-bottom: 0;
+                }
+                p {
+                    white-space: normal;
+                    width: auto;
+                    &:focus {
+                        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(231, 76, 60, 0.6);
+                        outline-color: $orange !important;
+                    }
+                }
+            }
+            .media-left {
+                vertical-align: middle;
+                .fa {
+                    font-size: 16px;
+                }
+                .check-me {
+                    &:hover,
+                    &:focus {
+                        .fa {
+                            color: $orange !important;
+                        }
+                    }
+                    .fa-check-square {
+                        display: none;
+                    }
+                    .fa-square-o {
+                        display: inline-block;
+                    }
+                    &.active {
+                        .fa-check-square {
+                            display: inline-block;
+                            color: $orange !important;
+                        }
+                        .fa-square-o {
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .media-body {
+                padding-left: 10px;
+                .thumb-over {
+                    position: relative;
+                    display: block;
+                    overflow: hidden;
+                    width: 100px;
+                    margin-right: 10px;
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                    .playme {
+                        opacity: 0;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        background: rgba(0, 0, 0, 0.75);
+                        width: 100%;
+                        height: 100%;
+                        transition: opacity 250ms ease;
+                        text-align: center;
+                        &:hover,
+                        &focus {
+                            cursor: pointer;
+                        }
+                        .fa {
+                            color: $orange;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            margin: auto;
+                            width: 20px;
+                            height: 20px;
+                        }
+                    }
+                    &:hover .playme {
+                        opacity: 1;
+                    }
+                }
+            }
+            .media-right {
+                vertical-align: middle;
+                width: 15%;
+                .share-btn {
+                    margin-right: -1px;
+                }
+            }
+        }
+    }
+}

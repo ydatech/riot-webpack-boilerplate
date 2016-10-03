@@ -1,0 +1,99 @@
+.sociocaster-overlay {
+    background: rgba(0, 0, 0, .8);
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    margin: auto;
+    transition: 2s all ease;
+    .overlay-content {
+        background: $main-bg;
+        border-radius: 6px;
+        width: 80%;
+        margin: 5% auto;
+        padding: 40px 20px;
+        min-height: 525px;
+        position: relative;
+        .preview-wrap {
+            position: relative;
+            iframe {
+                width: 100%;
+                height: 480px;
+            }
+            img {
+                width: 100%;
+                height: auto;
+                max-height: 80%;
+            }
+        }
+        .yt-row {}
+        .flickr-row {}
+        .right-side-desc {
+            padding: 0 10px 40px;
+            position: relative;
+            height: 460px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            h4 {
+                color: $dark-blue;
+                line-height: 24px;
+                margin-bottom: 15px;
+                font-family: $base-font-family;
+                margin-top: 0;
+            }
+            p {
+                color: darken($dark-blue, 15%);
+                margin-bottom: 15px;
+            }
+            .this-stats-wrap {
+                margin-bottom: 0;
+                .stats {
+                    color: darken($gray, 10%);
+                    display: inline-block;
+                    margin-right: 5px;
+                    font-size: 12px;
+                }
+            }
+        }
+        .share-wrap {
+            position: relative;
+            width: 100%;
+            background: $main-bg;
+            padding: 10px 0;
+            margin: 10px 0;
+            .btn-share-overlay {
+                @extend .borderless-btn;
+                display: block;
+                padding: 12px 18px;
+            }
+        }
+    }
+    .overlay-nav {
+        position: relative;
+        .close-overlay {
+            position: fixed;
+            top: 0;
+            right: 30px;
+            padding: 10px;
+            font-size: 24px;
+            color: $white;
+        }
+        .over-nav {
+            color: $white;
+            font-size: 36px;
+            padding: 10px;
+            position: fixed;
+            top: 47%;
+        }
+        .nav-left {
+            left: 3%;
+        }
+        .nav-right {
+            right: 3%;
+        }
+    }
+}

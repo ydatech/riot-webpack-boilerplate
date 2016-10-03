@@ -1,0 +1,359 @@
+.result-detail {
+	.main-page-header {
+		color: $orange;
+		@include media("<=767px", ">=phone") {
+			text-align: center;
+		}
+	}
+}
+
+.search-block {
+	width: 250px;
+	position: fixed;
+	background: $main-bg;
+	z-index: 9;
+	top: 50px;
+	left: -250px;
+	border-left: solid 1px $border-color1;
+	@include media("<=767px", ">=phone") {
+		position: relative;
+		height: auto !important;
+		width: 100%;
+	}
+	.page-header {
+		padding: 12px 15px;
+		color: $dark-blue;
+		text-align: center;
+		font-family: $base-font-family;
+		font-weight: $bold;
+		margin: 0;
+		font-size: 14px;
+		border-bottom: solid 1px $border-color1;
+	}
+	&.active {
+		left: 250px;
+		@include media("<=767px", ">=phone") {
+			top: -5px;
+			left: 0;
+		}
+	}
+	.search-box {
+		padding: 0 15px;
+		.search-provider {
+			margin: 25px 0;
+			@include media("<=767px", ">=phone") {
+				margin-bottom: 20px;
+			}
+			.switch {
+				@include media("<=767px", ">=phone") {
+					width: 33%;
+				}
+				a {
+					width: 65px;
+					height: 65px;
+					border: solid 1px $border-color1;
+					text-align: center;
+					margin-left: 4px;
+					margin-right: 4px;
+					border-radius: 100%;
+					display: block;
+					@include media("<=767px", ">=phone") {
+						margin: 0 auto;
+					}
+					.fa {
+						color: $dark-blue;
+						font-size: 24px;
+						margin-top: 19px;
+					}
+					&:hover {
+						color: $orange;
+						border-color: $orange;
+						cursor: pointer;
+					}
+					&.active {
+						border-color: $orange;
+						.fa {
+							color: $orange;
+						}
+					}
+					&:hover .fa {
+						color: $orange;
+					}
+				}
+			}
+		}
+	}
+	.search-input {
+		input {
+			height: 33px;
+			border-color: $border-color1;
+		}
+		@include media("<=767px", ">=phone") {
+			width: 80%;
+			margin: 0 auto;
+		}
+		.btn {
+			padding: 6px 12px;
+			border-radius: 0px 4px 4px 0;
+			border-color: $border-color1;
+			color: $gray;
+			&:hover,
+			&:focus {
+				color: $white;
+			}
+		}
+	}
+}
+
+.search-result-nav {
+	margin: 20px 0;
+	@include media("<=767px", ">=phone") {
+		margin-bottom: 0;
+	}
+	ul {
+		padding: 0;
+		list-style: none;
+		@include media("<=767px", ">=phone") {
+			margin-bottom: -4px;
+			border-top: solid 1px $border-color1;
+		}
+		li {
+			@include media("<=767px", ">=phone") {
+				width: 33.3%;
+				float: left;
+				text-align: center;
+			}
+			a {
+				padding: 10px 15px;
+				border-top: solid 1px $border-color1;
+				background: $light-bg;
+				color: $dark-blue;
+				display: block;
+				@include media("<=767px", ">=phone") {
+					font-size: 20px;
+					border-top: none !important;
+				}
+				.fa-angle-right {
+					margin-top: 3px;
+				}
+				&:hover,
+				&:focus {
+					color: $orange;
+				}
+			}
+			&.active a {
+				color: $orange;
+			}
+		}
+	}
+}
+
+.result-list {
+	.media-list {
+		list-style: none;
+		padding: 0;
+		.media {
+			border-bottom: solid 1px $border-color1;
+			padding: 25px 10px 20px;
+			&:first-child {
+				border-top: solid 1px $border-color1;
+			}
+			p {
+				margin-left: 0;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+		}
+		.media:nth-child(even) {
+			background-color: $light-bg-2;
+		}
+		.media:last-child {
+			border-bottom: none;
+		}
+	}
+	.img-preview {
+		width: 10%;
+		.fa {
+			font-size: 40px;
+			color: $gray;
+		}
+	}
+}
+
+.media-list {
+	.media {
+		margin-top: 0;
+		.media-left {
+			.media-object {
+				@include media("<=767px", ">=phone") {
+					width: 20px;
+					height: auto;
+				}
+			}
+			.fa {
+				font-size: 40px;
+				color: $gray;
+			}
+		}
+	}
+}
+
+.media-body {
+	.media-heading {
+		font-family: $base-font-family;
+		font-weight: 600;
+		a {
+			line-height: 24px;
+		}
+	}
+	p {
+		margin: 0 0 10px;
+		@include media("<=400px", ">=phone") {
+			width: 220px !important;
+		}
+	}
+	.this-stats-wrap {
+		.stats {
+			color: $gray;
+			margin-right: 7px;
+		}
+	}
+}
+
+.result-youtube {
+	.this-stats-wrap {
+		text-transform: uppercase;
+		.stats-time {
+			text-transform: none;
+		}
+	}
+	.yt-over {
+		position: relative;
+		display: block;
+		overflow: hidden;
+		.playme {
+			opacity: 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: rgba(0, 0, 0, 0.75);
+			width: 120px;
+			height: 90px;
+			transition: opacity 250ms ease;
+			text-align: center;
+			&:hover,
+			&focus {
+				cursor: pointer;
+			}
+			.fa {
+				color: $orange;
+				padding: 25px 0;
+			}
+		}
+		&:hover .playme {
+			opacity: 1;
+		}
+	}
+}
+
+.result-flickr {
+	.media-object {
+		max-width: 150px;
+	}
+	.fl-over {
+		position: relative;
+		display: block;
+		overflow: hidden;
+		.playme {
+			opacity: 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background: rgba(0, 0, 0, 0.75);
+			width: 100%;
+			height: 100%;
+			transition: opacity 250ms ease;
+			text-align: center;
+			&:hover,
+			&focus {
+				cursor: pointer;
+			}
+			.fa {
+				color: $orange;
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				display: block;
+				margin: auto;
+				width: 42px;
+				height: 42px;
+			}
+		}
+		&:hover .playme {
+			opacity: 1;
+		}
+	}
+}
+
+.search-result {
+	.trending {
+		width: 440px;
+		padding: 20px;
+		background: $light-bg-2;
+		margin: 10% auto;
+		overflow: hidden;
+		border: solid 1px $border-color1;
+		.dropdown {
+			.btn {
+				font-size: 12px;
+			}
+		}
+		.title {
+			margin-bottom: 15px;
+		}
+		.list {
+			margin-top: 25px;
+			padding: 0;
+			list-style: none;
+			li {
+				margin-bottom: 13px;
+				padding-bottom: 13px;
+				border-bottom: dashed 1px $border-color1;
+				a {
+					color: $orange;
+					font-weight: $bold;
+					display: inline-block;
+					margin-bottom: 3px;
+				}
+				span {
+					display: block;
+					font-size: 12px;
+					color: $gray;
+				}
+				&:last-child {
+					border-bottom: none;
+				}
+			}
+		}
+	}
+}
+
+.no-result {
+	margin: 25px auto;
+	.fa {
+		font-size: 24px;
+		color: $dark-blue;
+		text-align: center;
+		display: block;
+	}
+	p {
+		text-align: center;
+		padding: 20px;
+		border: solid 1px $border-color1;
+		width: 80%;
+		margin: 10px auto;
+	}
+}
