@@ -10,9 +10,10 @@ const uiloader = require('./uiloader.js')
 const observables = require('./observables/index.js')
 
 
-require('../tags/navbar.tag')
-require('../tags/sidebar.tag')
-require('../tags/dashboard.tag')
+require('../tags/layouts/header.tag')
+require('../tags/layouts/sidebar-item.tag')
+require('../tags/boxes/background.tag')
+
 
 
 const logo = require("file?name=logo.png!../images/logo.png")
@@ -21,7 +22,7 @@ const logo = require("file?name=logo.png!../images/logo.png")
 
 document.addEventListener('DOMContentLoaded', function() {
 
-    reduxStore.dispatch(actions.auth.init())
+    //reduxStore.dispatch(actions.auth.init())
 
     reduxStore.subscribe(function() {
         console.log(reduxStore.getState())
@@ -29,23 +30,18 @@ document.addEventListener('DOMContentLoaded', function() {
 
     })
 
-    actions.ui.detectScreen()
-    const navbar = riot.mount('div#navbar', 'app-navbar', {
+    //actions.ui.detectScreen()
+    const navbar = riot.mount('div#grafy-header', 'grafy-header', {
         logo: logo,
         store: reduxStore
     })
-    const sidebar = riot.mount('div#sidebar', 'app-sidebar', {
+    const sidebar = riot.mount('div#grafy-sidebar-item', 'grafy-sidebar-item', {
         store: reduxStore
     })
-    const mediaPreview = riot.mount('div#media-preview', 'app-media-preview', {
-        store: reduxStore
-    })
-    const shareDialog = riot.mount('div#share-dialog-container', 'app-share-dialog', {
-        store: reduxStore
-    })
-    riot.route.base('/')
-    riot.route(router.handler)
-    riot.route.start(true)
+
+    //riot.route.base('/')
+    //riot.route(router.handler)
+    //riot.route.start(true)
 
 
 })

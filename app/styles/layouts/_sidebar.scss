@@ -1,0 +1,140 @@
+.sidebar {
+    position: absolute;
+    width: 33.33%;
+    height: 100%;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent;
+    z-index: 3;
+}
+
+.sidebar__item--nav {
+    background: $color2;
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar-nav__list {
+    width: 100%;
+}
+
+.sidebar-nav__item {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar-nav__link {
+    width: 100%;
+    height: 100px;
+    color: $color3;
+    font-size: 11px;
+    &:hover,
+    &:active {
+        background-color: $color3;
+        color: $color1;
+    }
+}
+
+.sidebar-nav__link.is-active {
+    background-color: $color3;
+    color: $color1;
+}
+
+.sidebar-nav__icon {
+    display: block;
+    font-size: 16px;
+    margin-top: 32px;
+    margin-bottom: 4px;
+}
+
+.sidebar-nav__icon--txt {
+    font-family: georgia, serif;
+}
+
+.sidebar-box {
+    position: absolute;
+    background: $color3;
+    width: 75%;
+    top: 0;
+    bottom: 0;
+    left: 25%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.sidebar-box__item.is-active {
+    .sidebar-box__link {
+        background-color: $color6;
+        color: $color3;
+        border-bottom: none;
+    }
+}
+
+.sidebar-box__list {
+    position: relative;
+}
+
+.sidebar-box__link {
+    display: block;
+    padding: 14px 10px;
+    background-color: $gray4;
+    color: $gray3;
+    border-bottom: solid 1px $gray5;
+}
+
+.sidebar-box__content {
+    padding: 5px;
+    display: none;
+    text-align: center;
+    background-color: $color3;
+    transition: 2s all ease;
+}
+
+.sidebar-box__content.is-active {
+    display: block;
+}
+
+.searchbox {
+    margin: 5px 0 20px;
+    width: 100%;
+}
+
+.searchbox__input {
+    width: 85%;
+    padding: 5px 14px;
+}
+
+.stock__link {
+    display: inline-block;
+    margin: 0 1px;
+}
+
+.text-placeholder__link {
+    padding: 10px 0;
+    display: block;
+}
+
+.addText__heading {
+    font-size: 250%;
+}
+
+.addText__subheading {
+    font-size: 150%;
+}

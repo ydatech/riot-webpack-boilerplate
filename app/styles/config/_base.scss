@@ -1,18 +1,21 @@
-// Colors Scheme 
+//colors
+$blue: #2980b9;
+$light-blue: #2eb2ff;
 $dark-blue: #2c3e50;
-$orange: #e74c3c;
-$border-color1: #ddd;
-$default-text-color: #888;
-$gray: #aaa;
-$white: #fff;
-$black: #000;
-$red: #ff0000;
-$light-bg: #fefefe;
-$light-bg-2: #fcfcfc;
-$light-bg-3: #fafafa;
-$main-bg: #f1f1f1;
-$blue: #2980B9;
-$light-blue: #3498DB;
+$white: #ffffff;
+$gray: #ecf0f1;
+$gray2: #dddddd;
+$gray3: #777777;
+$gray4: #e0e4e5;
+$gray5: #cccccc;
+$orange: #e79c3c;
+$color1: $blue;
+$color2: $dark-blue;
+$color3: $white;
+$color4: $gray;
+$color5: $orange;
+$color6: $light-blue;
+$border-color: $gray2;
 // Font weights
 $light: 100;
 $regular: 400;
@@ -27,10 +30,17 @@ $secondary-font-family: 'FjallaOne-Regular';
 $fixed-font-family: monospace;
 $fixed-font-size: 85%;
 $fixed-line-height: $base-line-height;
+html,
 body {
-	background-color: $main-bg;
-	font-family: $base-font-family;
-	margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: $gray;
+    font-family: $base-font-family;
+    margin: 0;
 }
 
 h1,
@@ -39,34 +49,18 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: $secondary-font-family;
+    font-family: $secondary-font-family;
 }
 
 a {
-	color: $orange;
-	&:hover,
-	&:focus,
-	&:active {
-		text-decoration: none;
-		outline: 0 none;
-		color: lighten($orange, 12%);
-	}
+    color: $color2;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover,
+    &:focus,
+    &:active {
+        text-decoration: none;
+        outline: 0 none;
+        color: lighten($color1, 12%);
+    }
 }
-
-input,
-.form-control,
-.btn {
-	&:focus {
-		box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(231, 76, 60, 0.6);
-		outline-color: $orange !important;
-		border-color: $orange !important;
-	}
-}
-
-@import '../modules/_all';
-@import '../modules/_dashboard';
-@import '../modules/_search-keywords';
-@import '../modules/_top-content';
-@import '../modules/_feeds';
-@import '../modules/_content-box';
-@import '../modules/_visual-templates';

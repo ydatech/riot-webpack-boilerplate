@@ -10,6 +10,16 @@ function activateSidebar(name) {
 
 }
 
+function activateSidebarBox(name) {
+
+    return {
+        type: 'SIDEBAR_BOX_ACTIVATED',
+        data: name
+
+    }
+
+}
+
 function detectScreen() {
     $("#main").css("min-height", screen.height + "px")
 }
@@ -17,5 +27,6 @@ function detectScreen() {
 module.exports = {
 
     activateSidebar: activateSidebar,
-    detectScreen: detectScreen
+    detectScreen: detectScreen,
+    activateSidebarBox: activateSidebarBox
 }
