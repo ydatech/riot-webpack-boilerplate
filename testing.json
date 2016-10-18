@@ -1,0 +1,243 @@
+{
+    "status": 1,
+    "editor_data": {
+        "type": 1,
+        "data": [{
+            "type": 1,
+            "x": 0,
+            "y": 0,
+            "width": 941,
+            "height": 789,
+            "pid": "57f3c1b9836324be148b6bfd",
+            "src": "http:\/\/cdn2.promorepublic.com\/3\/6\/7\/7\/go0bfa\/870daa689e43a412da013337556b5d36.png"
+        }, {
+            "type": 3,
+            "x": 0,
+            "y": -5,
+            "width": 944,
+            "height": 799,
+            "opacity": 32,
+            "pid": "57dc32508363248e348b456a",
+            "svg_colors": {
+                "svgColorLabel_1": "#8800a8"
+            },
+            "src": "http:\/\/cdn.promorepublic.com\/8\/2\/9\/2\/fg0wfr\/8c692133d633a39695dabf08f0759e73xxl.png",
+            "svg_src": "http:\/\/cdn.promorepublic.com\/8\/2\/9\/2\/fg0wfr\/8c692133d633a39695dabf08f0759e73.svg"
+        }, {
+            "type": 2,
+            "x": 127,
+            "y": 142,
+            "width": 688,
+            "desc": "WHAT WORK CAN ONE\r\n",
+            "fontFamily": "Bebas Neue",
+            "fontSize": 96,
+            "bold": 1,
+            "italic": 0,
+            "color": "#ffffff",
+            "textAlign": 2
+        }, {
+            "type": 2,
+            "x": 212,
+            "y": 227,
+            "width": 519,
+            "desc": "NEVER FINISH?",
+            "fontFamily": "Bebas Neue",
+            "fontSize": 96,
+            "bold": 1,
+            "italic": 0,
+            "color": "#ffffff",
+            "textAlign": 2
+        }, {
+            "type": 2,
+            "x": 137,
+            "y": 667,
+            "width": 668,
+            "desc": "NATIONAL TRAIN YOUR BRAIN DAY",
+            "fontFamily": "Bebas Neue",
+            "fontSize": 48,
+            "italic": 0,
+            "color": "#ffffff",
+            "textAlign": 2
+        }, {
+            "type": 2,
+            "x": 374,
+            "y": 721,
+            "width": 195,
+            "desc": "OCTOBER 13",
+            "fontFamily": "Bebas Neue",
+            "fontSize": 36,
+            "italic": 0,
+            "color": "#ffe065",
+            "textAlign": 2
+        }, {
+            "type": 3,
+            "x": 511,
+            "y": 420,
+            "width": 49,
+            "height": 83,
+            "pid": "57f3c1c483632477368b56ef",
+            "svg_colors": {
+                "svgColorLabel_1": "#fdff56",
+                "svgColorLabel_2": "#441a40"
+            },
+            "src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07xxl.png",
+            "svg_src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07.svg"
+        }, {
+            "type": 3,
+            "x": 635,
+            "y": 421,
+            "width": 48,
+            "height": 81,
+            "pid": "57f3c1c483632477368b56ef",
+            "svg_colors": {
+                "svgColorLabel_1": "#fdff56",
+                "svgColorLabel_2": "#441a40"
+            },
+            "src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07xxl.png",
+            "svg_src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07.svg"
+        }, {
+            "type": 3,
+            "x": 574,
+            "y": 421,
+            "width": 48,
+            "height": 81,
+            "pid": "57f3c1c483632477368b56ef",
+            "svg_colors": {
+                "svgColorLabel_1": "#fdff56",
+                "svgColorLabel_2": "#441a40"
+            },
+            "src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07xxl.png",
+            "svg_src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07.svg"
+        }, {
+            "type": 3,
+            "x": 448,
+            "y": 421,
+            "width": 48,
+            "height": 82,
+            "pid": "57f3c1c483632477368b56ef",
+            "svg_colors": {
+                "svgColorLabel_1": "#fdff56",
+                "svgColorLabel_2": "#441a40"
+            },
+            "src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07xxl.png",
+            "svg_src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07.svg"
+        }, {
+            "type": 3,
+            "x": 383,
+            "y": 420,
+            "width": 53,
+            "height": 84,
+            "pid": "57f3c1c483632477368b56ef",
+            "svg_colors": {
+                "svgColorLabel_1": "#fdff56",
+                "svgColorLabel_2": "#441a40"
+            },
+            "src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07xxl.png",
+            "svg_src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07.svg"
+        }, {
+            "type": 3,
+            "x": 698,
+            "y": 421,
+            "width": 48,
+            "height": 82,
+            "pid": "57f3c1c483632477368b56ef",
+            "svg_colors": {
+                "svgColorLabel_1": "#fdff56",
+                "svgColorLabel_2": "#441a40"
+            },
+            "src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07xxl.png",
+            "svg_src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07.svg"
+        }, {
+            "type": 3,
+            "x": 322,
+            "y": 420,
+            "width": 53,
+            "height": 84,
+            "pid": "57f3c1c483632477368b56ef",
+            "svg_colors": {
+                "svgColorLabel_1": "#fdff56",
+                "svgColorLabel_2": "#441a40"
+            },
+            "src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07xxl.png",
+            "svg_src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07.svg"
+        }, {
+            "type": 3,
+            "x": 264,
+            "y": 420,
+            "width": 48,
+            "height": 84,
+            "pid": "57f3c1c483632477368b56ef",
+            "svg_colors": {
+                "svgColorLabel_1": "#fdff56",
+                "svgColorLabel_2": "#441a40"
+            },
+            "src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07xxl.png",
+            "svg_src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07.svg"
+        }, {
+            "type": 3,
+            "x": 760,
+            "y": 420,
+            "width": 50,
+            "height": 84,
+            "pid": "57f3c1c483632477368b56ef",
+            "svg_colors": {
+                "svgColorLabel_1": "#fdff56",
+                "svgColorLabel_2": "#441a40"
+            },
+            "src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07xxl.png",
+            "svg_src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07.svg"
+        }, {
+            "type": 3,
+            "x": 825,
+            "y": 420,
+            "width": 49,
+            "height": 83,
+            "pid": "57f3c1c483632477368b56ef",
+            "svg_colors": {
+                "svgColorLabel_1": "#fdff56",
+                "svgColorLabel_2": "#441a40"
+            },
+            "src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07xxl.png",
+            "svg_src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07.svg"
+        }, {
+            "type": 3,
+            "x": 204,
+            "y": 419,
+            "width": 48,
+            "height": 86,
+            "pid": "57f3c1c483632477368b56ef",
+            "svg_colors": {
+                "svgColorLabel_1": "#fdff56",
+                "svgColorLabel_2": "#441a40"
+            },
+            "src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07xxl.png",
+            "svg_src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07.svg"
+        }, {
+            "type": 3,
+            "x": 141,
+            "y": 419,
+            "width": 49,
+            "height": 86,
+            "pid": "57f3c1c483632477368b56ef",
+            "svg_colors": {
+                "svgColorLabel_1": "#fdff56",
+                "svgColorLabel_2": "#441a40"
+            },
+            "src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07xxl.png",
+            "svg_src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07.svg"
+        }, {
+            "type": 3,
+            "x": 74,
+            "y": 420,
+            "width": 53,
+            "height": 83,
+            "pid": "57f3c1c483632477368b56ef",
+            "svg_colors": {
+                "svgColorLabel_1": "#fdff56",
+                "svgColorLabel_2": "#441a40"
+            },
+            "src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07xxl.png",
+            "svg_src": "http:\/\/cdn3.promorepublic.com\/8\/0\/2\/6\/bh0kck\/eaf09d32bd58e1de327350d54af0ad07.svg"
+        }]
+    }
+}

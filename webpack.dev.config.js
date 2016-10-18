@@ -13,7 +13,6 @@ module.exports = {
 
   entry: [
     'webpack-hot-middleware/client',
-    // 'tether',
     'font-awesome-loader',
     bootstrapEntryPoints.dev,
     // 'animate-css-webpack!./animate-css.config.js',
@@ -36,7 +35,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
     new webpack.ProvidePlugin({
-      'window.Tether': 'tether',
+
     }),
   ],
 
@@ -92,7 +91,6 @@ module.exports = {
 
   externals: {
 
-    //'xlsx': XLSX
   }
 
 };

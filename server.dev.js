@@ -9,7 +9,7 @@ const webpackHotMiddleware = require('webpack-hot-middleware');
 
 const devBuildConfig = require('./webpack.dev.config');
 
-const PORT = 4000;
+const PORT = 4040;
 
 const server = express();
 const compiler = webpack(devBuildConfig);
@@ -30,7 +30,9 @@ server.use(webpackDevMiddleware(compiler, {
 server.use(webpackHotMiddleware(compiler));
 
 server.use(bodyParser.json());
-server.use(bodyParser.urlencoded({ extended: true }));
+server.use(bodyParser.urlencoded({
+  extended: true
+}));
 
 server.use('/', (req, res) => (
   res.sendFile(path.join(__dirname, 'app', 'markup', 'bootstrap-dev.html'))

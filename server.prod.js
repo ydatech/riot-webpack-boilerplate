@@ -4,12 +4,14 @@ const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
 
-const PORT = 4000;
+const PORT = 4040;
 
 const server = express();
 
 server.use(bodyParser.json());
-server.use(bodyParser.urlencoded({ extended: true }));
+server.use(bodyParser.urlencoded({
+  extended: true
+}));
 
 server.use(express.static(path.join(__dirname, 'public')));
 
